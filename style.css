@@ -1,0 +1,163 @@
+figure {
+    margin: 0;
+  }
+
+    .counter {
+      width: 123px;
+      height: 123px;
+      position: relative;
+      margin: 0 auto 40px;
+      border: 1px solid #CCC;
+      background-color: green;
+      line-height: 123px;
+      color: white;
+      text-align: center;
+      font-weight: bold;
+      font-size: 123px;
+    }
+
+    .container {
+      width: 123px;
+      height: 123px;
+      position: relative;
+      margin: 0 auto 40px;
+      border: 1px solid #CCC;
+      -webkit-perspective: 800px;
+         -moz-perspective: 800px;
+           -o-perspective: 800px;
+              perspective: 800px;
+    }
+
+    .card {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      -webkit-transition: -webkit-transform 1s;
+         -moz-transition: -moz-transform 1s;
+           -o-transition: -o-transform 1s;
+              transition: transform 1s;
+      -webkit-transform-style: preserve-3d;
+         -moz-transform-style: preserve-3d;
+           -o-transform-style: preserve-3d;
+              transform-style: preserve-3d;
+    }
+
+    .card.flipped {
+      -webkit-transform: rotateY( 180deg );
+         -moz-transform: rotateY( 180deg );
+           -o-transform: rotateY( 180deg );
+              transform: rotateY( 180deg );
+    }
+
+    .card figure {
+      /*display: block;*/
+      height: 100%;
+      width: 100%;
+      line-height: 123px;
+      color: white;
+      text-align: center;
+      font-weight: bold;
+      font-size: 123px;
+      position: absolute;
+      -webkit-backface-visibility: hidden;
+         -moz-backface-visibility: hidden;
+           -o-backface-visibility: hidden;
+              backface-visibility: hidden;
+    }
+
+    .card .front {
+      background: url('https://images8.alphacoders.com/523/thumb-1920-523120.jpg');
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .card .back {
+      background: blue;
+      -webkit-transform: rotateY( 180deg );
+         -moz-transform: rotateY( 180deg );
+           -o-transform: rotateY( 180deg );
+              transform: rotateY( 180deg );
+    }
+
+    .neo .back {
+      background: url("https://cdn.movieweb.com/img.news.tops/NEd1hmE3IeQgge_1_a/The-Matrix-4-Reboot-Plot-Keanu-Reeves.jpg");
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .trinity .back {
+      background: url("https://vignette.wikia.nocookie.net/matrix/images/6/67/Trinityfull.jpg/revision/latest?cb=20060803214449");
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .morpheus .back {
+      background: url("http://i0.kym-cdn.com/entries/icons/facebook/000/009/889/Morpheus2.jpg");
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .merovingian .back {
+      background: url("http://www.mxoarchive.net/exiles/merovingian.png");
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .twins .back {
+      background: url("http://thumbs.modthesims2.com/img/1/8/1/9/5/1/MTS_Hardyboyz-221450-003MRD_Adrian_and_Neil_Rayment_002.jpg");
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .oracle .back {
+      background: url("https://gregoryhuyghe.files.wordpress.com/2017/06/the-oracle.jpg");
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .architect .back {
+      background: url("https://vignette.wikia.nocookie.net/matrix/images/b/b5/1.gif/revision/latest?cb=20091017235714");
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .smith .back {
+      background: url("https://orig00.deviantart.net/f245/f/2016/112/b/a/agent_smith___matrix_by_lun_art-d9yu8fp.jpg");
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .niobi .back {
+      background: url("https://upload.wikimedia.org/wikipedia/en/4/44/MatrixNiobe.jpg");
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .linnix .back {
+      background: url("http://www.supermanofsteel.com/wp-content/uploads/harrylennix.jpg");
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .cornel .back {
+      background: url("https://vignette.wikia.nocookie.net/matrix/images/d/dd/West.png/revision/latest?cb=20081010065236");
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .seraph .back {
+      background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOoBCMnyJ6UArRep5znu_KwbKWFbt6RHBgLxenfu29Q8nE_KV3");
+      background-size: cover;
+      background-position: center center;
+    }
+
+    .wrapper {
+      display: grid;
+      background: url('https://m.popkey.co/6acd3e/aWG7m.gif');
+      background-repeat: no-repeat;
+      background-size: cover;
+      grid-template-rows: repeat(5, 123px);
+      grid-template-columns: repeat(5, 123px);
+      justify-content: center;
+      align-content: center; 
+    }
