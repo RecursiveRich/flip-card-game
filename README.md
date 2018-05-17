@@ -1,2 +1,3 @@
 # flip-card-game
-https://recursiverich.github.io/meme-generator/
+https://recursiverich.github.io/flip-card-game/
+
